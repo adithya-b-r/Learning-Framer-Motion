@@ -1,0 +1,17 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.satta-disawar-fast.com/sitemap.xml
+
+# Encourage frequent crawling of your website
+Crawl-delay: 10
+
+# Allow all crawlers to access all content
+Allow: /
+
+# Specific sections to improve indexing
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
